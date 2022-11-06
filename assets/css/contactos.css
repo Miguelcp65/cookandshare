@@ -1,0 +1,113 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-image: url("../img/back.jpg");
+    background-attachment: fixed;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+div#div-form {
+    border-right: 1px solid #ccc;
+}
+
+.container {
+    background-color: white;
+    margin-top: 100px;
+    width: 2000px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 700px;
+}
+
+div#div-form form {
+    width: 80%;
+}
+
+div#div-faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+svg#svg-seta {
+    width: 100%;
+    height: 50%;
+    transition: transform .5s;
+}
+
+div#div-faq p {
+    width: 100%;
+}
+
+textarea#areaTexto {
+    resize: none;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid orange;
+}
+
+#areaTexto {
+    border: none;
+    outline-color: invert;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+#areaTexto:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    border-bottom: 1px solid orange;
+}
+
+#btnSubmit {
+    background-color: orange;
+    border-style: none;
+    box-shadow: none;
+}
+
+#anc-seta {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: #ffa500;
+}
+
+#text {
+    text-align: center;
+}
+
+svg:hover {
+    transform: translateX(40px);
+}
+
+@media (max-width: 770px) {
+    div#div-faq p {
+        width: 100%;
+    }
+    div#div-form form {
+        width: 100%;
+    }
+    div#div-form {
+        border: none;
+        border: none;
+    }
+    div#div-faq {
+        margin-top: 50px;
+    }
+}

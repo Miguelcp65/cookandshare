@@ -1,0 +1,129 @@
+.content {
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    left: 50%;
+    height: max-content;
+    transform: translate(-50%, -50%);
+}
+
+.menus {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 120px;
+    padding: 15px;
+    display: block;
+    animation-name: menus;
+    animation-duration: 1s;
+}
+
+.lmenus {
+    margin: 0 auto;
+    width: 99%;
+    text-align: center;
+}
+
+.col {
+    text-align: center;
+    margin-right: 20px;
+    margin: 10px;
+    text-transform: uppercase;
+    width: 22%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 20pt;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+    border: 2px solid white;
+    animation-name: col;
+    animation-duration: 0.9s;
+    opacity: 80%;
+}
+
+.lista {
+    width: 100%;
+}
+
+.img {
+    width: 100px;
+}
+
+.col:hover {
+    transform: scale(1.07);
+    opacity: 100%;
+    border: 2px solid #D17240;
+}
+
+@keyframes col {
+    from {
+        transform: scale(0.6);
+        opacity: 75%;
+    }
+}
+
+@media only screen and (max-width: 1175px) {
+    .col {
+        font-size: 19pt;
+    }
+}
+
+@media only screen and (max-width: 1105px) {
+    .lmenus {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 839px) {
+    .col {
+        width: 47%;
+        font-size: 18pt;
+    }
+    .lmenus {
+        margin-top: 220px;
+    }
+}
+
+@media only screen and (max-width: 803px) {
+    .col {
+        width: 46%;
+        font-size: 18pt;
+    }
+}
+
+@media only screen and (max-width: 609px) {
+    .col {
+        width: 45%;
+        font-size: 17pt;
+    }
+}
+
+@media only screen and (max-width: 493px) {
+    .col {
+        width: 90%;
+        font-size: 18pt;
+    }
+    .lmenus {
+        margin-top: 160%;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+    .lmenus {
+        margin-top: 190%;
+    }
+}

@@ -1,0 +1,403 @@
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Dosis', sans-serif;
+        background-image: url("../img/back.jpg");
+        background-attachment: fixed;
+        z-index: -1;
+        background-repeat: no-repeat;
+    }
+    
+    .dbreadcrumb {
+        font-size: 14pt;
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 5%;
+        animation-name: breadcrumb;
+        animation-duration: 0.9s;
+        margin-bottom: 50px;
+    }
+    
+    .dbreadcrumb ol {
+        background-color: #D17240;
+    }
+    
+    .dbreadcrumb ol a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .breadcrumb-item+.breadcrumb-item::before {
+        color: black;
+    }
+    
+    @keyframes breadcrumb {
+        from {
+            opacity: 80%;
+        }
+    }
+    
+    .bar:active {
+        opacity: 100%;
+    }
+    
+    .destaquest {
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .splide {
+        width: 75%;
+        margin: 0 auto;
+        height: 50%;
+        background: #121314ab;
+        border-radius: 3px;
+        overflow: hidden;
+        scroll-behavior: smooth;
+        margin-bottom: 90px;
+    }
+    
+    .splide__slide {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    
+    div.desttexto {
+        width: 50%;
+        height: 100%;
+        float: right;
+        padding: 10px;
+    }
+    
+    div.desttexto .destdesc {
+        font-size: 13pt;
+        color: white;
+    }
+    
+    div.desttexto .desttitulo p {
+        font-size: 28pt;
+        color: white;
+        text-align: center;
+    }
+    
+    div.splide__track {
+        height: 100%;
+        width: 100%;
+    }
+    
+    div.splide__list {
+        height: 100%;
+        width: 100%;
+    }
+    
+    div.splide__list .destimagem {
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 60px;
+    }
+    
+    div.splide__list .destimagem img {
+        width: 100%;
+        height: 100%;
+        float: left;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    div.splide__list .destcat,
+    div.splide__list .destnpes,
+    div.splide__list .desttempo,
+    div.splide__list .destdef {
+        font-size: 20pt;
+        color: white;
+        margin-top: 40px;
+    }
+    
+    div.splide__list .destdet1 {
+        height: 55%;
+        width: 50%;
+        float: left;
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+    
+    div.splide__list .destdet2 {
+        height: 55%;
+        width: 50%;
+        float: right;
+    }
+    
+    div.splide__list .destcat #cati,
+    div.splide__list .destnpes #npes,
+    div.splide__list .desttempo #tempo,
+    div.splide__list .destdef #def {
+        margin-right: 10px;
+        background: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 70px;
+        vertical-align: middle;
+        padding: 15px;
+        color: black;
+        animation: hex-icon-heart-beat 3.5s linear infinite;
+        -webkit-animation: hex-icon-heart-beat 3.5s linear infinite;
+    }
+    
+    @keyframes hex-icon-heart-beat {
+        0% {
+            transform: scale3d(1, 1, 1);
+        }
+        30% {
+            transform: scale3d(0.75, 0.75, 1);
+        }
+        60% {
+            transform: scale3d(1, 1, 1);
+        }
+    }
+    
+    @-webkit-keyframes hex-icon-heart-beat {
+        0% {
+            -webkit-transform: scale3d(1, 1, 1);
+        }
+        30% {
+            -webkit-transform: scale3d(0.75, 0.75, 1);
+        }
+        60% {
+            -webkit-transform: scale3d(1, 1, 1);
+        }
+    }
+    
+    div.titu {
+        margin-top: 100px;
+    }
+    
+    a {
+        overflow-anchor: none;
+    }
+    
+    h1.titu {
+        text-align: left;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    hr.hr1 {
+        background-color: #D17240;
+        width: 90%;
+        height: 0.1%;
+        border-radius: 7px;
+        margin: 4px auto;
+    }
+    
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 100%);
+        overflow: hidden;
+        scroll-behavior: smooth;
+        width: 90%;
+        margin: 0 auto;
+        height: 35%;
+    }
+    
+    .wrapper section {
+        width: 100%;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        margin: 20px auto;
+    }
+    
+    .wrapper section .item {
+        padding: 0 2px;
+        transition: 250ms all;
+        height: 40%;
+    }
+    
+    .wrapper section .item:hover {
+        margin: 0 40px;
+        transform: scale(1.2);
+    }
+    
+    .wrapper section a {
+        position: absolute;
+        color: #D17240;
+        text-decoration: none;
+        font-size: 6em;
+        width: 80px;
+        padding: 20px;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    .wrapper section a:nth-of-type(1) {
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .wrapper section a:nth-of-type(2) {
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .item {
+        cursor: pointer;
+    }
+    
+    .item img {
+        width: 95%;
+        height: 190px;
+        border-radius: 2px;
+        border: 2px solid white;
+    }
+    /* carousel */
+    
+    .media-carousel {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+        margin-top: 30px;
+    }
+    /* Previous button  */
+    
+    .media-carousel .carousel-control.left {
+        left: -12px;
+        background-image: none;
+        background: none repeat scroll 0 0 #222222;
+        border: 4px solid #FFFFFF;
+        border-radius: 23px 23px 23px 23px;
+        height: 40px;
+        width: 40px;
+        margin-top: 30px
+    }
+    
+    div.wrapper h4 {
+        margin-top: 10px;
+    }
+    
+    .media-carousel .carousel-control.right {
+        right: -12px !important;
+        background-image: none;
+        background: none repeat scroll 0 0 #222222;
+        border: 4px solid #FFFFFF;
+        border-radius: 23px 23px 23px 23px;
+        height: 40px;
+        width: 40px;
+        margin-top: 30px
+    }
+    /* Changes the position of the indicators */
+    
+    .media-carousel .carousel-indicators {
+        right: 50%;
+        top: auto;
+        bottom: 0px;
+        margin-right: -19px;
+    }
+    /* Changes the colour of the indicators */
+    
+    .media-carousel .carousel-indicators li {
+        background: #c0c0c0;
+    }
+    
+    .media-carousel .carousel-indicators .active {
+        background: #333333;
+    }
+    
+    .media-carousel img {
+        width: 250px;
+        height: 100px
+    }
+    /* End carousel */
+    
+    .categorias {
+        position: relative;
+        height: 300px;
+        width: 90%;
+        margin: auto auto;
+        display: flex;
+        margin-top: 40px;
+    }
+    
+    .catcard {
+        cursor: pointer;
+        display: flex;
+        height: 280px;
+        width: 20%;
+        border-radius: 10px;
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+    }
+    
+    span.verrec {
+        font-size: 16pt;
+        margin-left: 95%;
+    }
+    
+    .catcard:not(:first-child) {
+        margin-left: -50px;
+    }
+    
+    .catcard:hover {
+        transform: translateY(-20px);
+        transition: 0.4s ease-out;
+    }
+    
+    .catcard:hover~.catcard {
+        position: relative;
+        left: 50px;
+        transition: 0.4s ease-out;
+    }
+    
+    .cattitle {
+        color: white;
+        font-weight: bold;
+        font-weight: 300;
+        position: absolute;
+        padding-left: 15px;
+        line-height: 40px;
+        width: 100%;
+        font-size: 24pt;
+        line-height: 60px;
+        border-bottom: 2px solid white;
+        height: 25%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    
+    .catcard img {
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        width: 100%
+    }
+    
+    .circle {
+        position: absolute;
+        top: 150px;
+        left: calc(50% - 60px);
+    }
+    
+    .stroke {
+        stroke: white;
+        stroke-dasharray: 360;
+        stroke-dashoffset: 360;
+        transition: 0.6s ease-out;
+        overflow: hidden;
+    }
+    
+    .catcard:hover .stroke {
+        stroke-dashoffset: 100;
+        transition: 0.6s ease-out;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        a.arrow__btn {
+            display: none;
+        }
+    }

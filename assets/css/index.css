@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-image: url("../img/back.jpg");
+    background-attachment: fixed;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    width: 85%;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 90px;
+    border: 1px solid #D17240;
+}
+
+
+/* --- Barra de Pesquisa ---*/
+
+.banner {
+    display: flex;
+    margin-top: 80px;
+}
+
+.left-column,
+.right-column {
+    flex-basis: 50%;
+}
+
+.right-column img {
+    width: 100%;
+    border-radius: 4%;
+    height: 500px;
+}
+
+
+/* --- Informação da Página ---*/
+
+.left-column h1 {
+    font-size: 100px;
+}
+
+.left-column h3 {
+    font-size: 35px;
+}
+
+.hero span {
+    color: #D17240;
+}
+
+.left-column p {
+    font-size: 17pt;
+    color: #999;
+    width: 95%;
+    text-align: left;
+}
+
+
+/* --- Botões ---*/
+
+.btn button {
+    padding: 7px 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 1px solid #DC913B;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #DC913B;
+    background: transparent;
+    transition: all .1s ease-in-out;
+}
+
+.btn .primary-btn {
+    background: linear-gradient(#D17240, #DC913B);
+    box-shadow: 0 2px 15px rgb(248 38, 103, 0.26);
+    color: #fff;
+    transition: all .1s ease-in-out;
+}
+
+.btn .primary-btn:hover {
+    transform: scale(1.1);
+}
+
+.btn button:hover {
+    transform: scale(1.1);
+}
+
+div.video {
+    margin: auto;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+div.video video {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* --- About Us ---*/
+
+.title {
+    text-align: center;
+}
+
+.about-section {
+    margin-top: 100px!important;
+}
+
+.about-text {
+    margin-top: 3%;
+    text-align: justify;
+}
+
+.about-tex {
+    width: 220px;
+    margin: 0 auto;
+}
+
+.about-tex h2 {
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero h2.video {
+    font-size: 35px;
+    margin-top: 150px;
+}
+
+.hero h2.sobren {
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+.hero h2::after {
+    display: block;
+    content: "";
+    width: 5%;
+    height: 3px;
+    background-color: #DC913B;
+    margin: 12px auto;
+}
+
+.hero p#txt_aboutUs {
+    text-align: center;
+    font-size: 17pt;
+}
+
+
+/* DESTAQUE */
+
+.hero img.imagensDestaque {
+    width: 100%;
+    height: 100%;
+    margin-right: 0px;
+}
+
+.hero div.textDestaque {
+    height: 100%;
+    margin-left: 0px;
+}
+
+.hero div#linha1 {
+    margin-top: 5%;
+}

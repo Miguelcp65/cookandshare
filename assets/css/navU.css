@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.navv {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* --- NAVBAR ---*/
+
+.navbar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 6.5%;
+    font-size: 15pt;
+    border-radius: 3px;
+    animation-name: navbar;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    animation-duration: 0.6s;
+}
+
+@keyframes navbar {
+    from {
+        margin-top: -100px;
+    }
+    to {
+        margin: 0 auto;
+    }
+}
+
+.navbar img {
+    width: 110px;
+    margin-left: 2px;
+    animation-name: imgnav;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
+.navbar ul {
+    flex: 1;
+    text-align: right;
+    padding-top: 11px;
+}
+
+@keyframes linav {
+    from {
+        margin: -15px;
+    }
+}
+
+@keyframes imgnav {
+    from {
+        margin-left: -50px;
+    }
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 13px;
+    animation-name: linav;
+    animation-duration: 1s;
+}
+
+.navbar ul li a {
+    text-decoration: none!important;
+    color: #000;
+    padding: 0 10px;
+    position: relative;
+}
+
+.navbar ul li a::after {
+    content: '';
+    width: 0;
+    height: 5px;
+    background: #D17240;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+    transition: 0.5s;
+}
+
+.nav-link {
+    display: none;
+    font-size: 15pt;
+}
+
+.navbar ul li .nav-link::after {
+    background: none;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1465px) {
+    .navbar ul li {
+        margin: 0 1px;
+    }
+    .navbar img {
+        width: 90px;
+    }
+    .navbar {
+        font-size: 14pt;
+    }
+}
+
+@media only screen and (max-width: 1055px) {
+    .navbar img {
+        width: 85px;
+    }
+}
+
+@media only screen and (max-width: 1045px) {
+    .navbar a {
+        display: none;
+    }
+    .navbar ul li .nav-link {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 493px) {
+    .navv {
+        width: 100%;
+    }
+}

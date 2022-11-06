@@ -1,0 +1,77 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css);
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-size: 80%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Dosis', sans-serif;
+    background-image: url("../img/back.jpg");
+    background-attachment: fixed;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.dbreadcrumb {
+    font-size: 14pt;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: breadcrumb;
+    animation-duration: 0.9s;
+    margin-bottom: 50px;
+}
+
+.dbreadcrumb ol {
+    background-color: #D17240;
+}
+
+.dbreadcrumb ol a {
+    color: white;
+    text-decoration: none;
+}
+
+.form {
+    width: 90%;
+    background-color: white;
+    margin: 10px auto;
+    height: 1200px;
+    padding-top: 20px;
+    padding-left: 4%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+h1.titulo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30pt;
+}
+
+h1.titulo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30pt;
+}
+
+div.pergs {
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+div.pergs h1 {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+div.pergs h2 {
+    margin-bottom: 50px;
+    font: 25pt;
+}

@@ -1,0 +1,432 @@
+body {
+    font-family: 'Dosis', sans-serif!important;
+}
+
+.content-header {
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+.content-header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.content-header .breadcrumb {
+    background: 0 0;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+    padding: 0;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.breadcrumb a {
+    color: #007bff;
+}
+
+#tabela_info {
+    margin-top: 25px;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+    margin-top: -30px!important;
+}
+
+.btn {
+    padding: 8px 20px!important;
+    margin: 2px;
+}
+
+button.btn,
+button.excelbutton,
+button.printbutton,
+button.adicionarbutton,
+button.eliminarbutton,
+button.editarbutton {
+    font-size: 15px!important;
+}
+
+div.dt-buttons {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    margin-top: 20px;
+    transform: translate(-50%, -50%)
+}
+
+.dataTables_length {
+    position: absolute;
+}
+
+.dataTables_scroll {
+    margin-top: 5px;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: 7px;
+    position: relative;
+    flex-direction: column;
+    width: 98%;
+    height: 850px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(26, 54, 126, 0.125);
+    border-radius: .25rem;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+    border-width: 0;
+    transition: all .2s;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.dataTables_filter {
+    text-align: right;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+
+.tabela {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+table.dataTable {
+    margin-top: 20px !important;
+    margin-bottom: 25px !important;
+    clear: both;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+table#tabela.dataTable .trv:hover {
+    cursor: pointer;
+    background: #b8d1f3;
+}
+
+.dataTables_scrollBody {
+    height: auto;
+}
+
+#events {
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: #f6f6f6;
+    border: 1px solid #999;
+    border-radius: 3px;
+    height: 100px;
+    overflow: auto;
+}
+
+tbody .trv td {
+    vertical-align: middle;
+}
+
+.recim {
+    width: 120px;
+    height: 100px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.form-group {
+    margin: auto 30;
+}
+
+.modal-content {
+    width: 140%;
+}
+
+.input-group {
+    position: relative;
+    margin: 35px 0 20px;
+}
+
+.iptedit {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #4285f4;
+}
+
+.iptadd {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #4285f4;
+}
+
+#iptverid,
+#iptvernome {
+    height: 40px;
+    font-size: 17px;
+    display: block;
+    width: 100%;
+    padding-left: 12px;
+}
+
+.btn-group button {
+    height: 28px;
+    width: 40px;
+}
+
+#btnv {
+    margin-right: 10px;
+}
+
+#btne {
+    margin-right: 10px;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.lb {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.lbsel {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -20px;
+    font-size: 14px;
+    color: #4285f4;
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 315px;
+}
+
+.bar:before,
+.bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #4285f4;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+input:focus~.bar:before,
+input:focus~.bar:after {
+    width: 50%;
+}
+
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+input:focus~.highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+
+/* animations */
+
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #4285f4;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #4285f4;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #4285f4;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@media (max-width: 600px) {
+    .dataTables_scrollHeadInnerr,
+    .table {
+        width: max-content!important;
+    }
+}
+
+@media (max-width: 723px) {
+    .card-body {
+        padding-right: 0.7rem!important;
+        padding-left: 0.4rem!important;
+    }
+    .card {
+        width: 98%!important;
+        height: max-content;
+    }
+}
+
+@media (max-width: 1900px) {
+    .dataTables_scrollHead {
+        width: 100%!important;
+    }
+}
+
+@media (max-width: 1500px) {
+    div.dt-buttons {
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        margin-top: 10px;
+        transform: translate(-50%, -50%)
+    }
+}
+
+@media (max-width: 960px) {
+    .btn {
+        padding: 4px 10px!important;
+        margin: 1px;
+    }
+}
+
+@media (max-width: 808px) {
+    div.dataTables_length {
+        margin-top: 45px;
+    }
+    .dataTables_scrollHead {
+        margin-top: 30px;
+    }
+    .dataTables_filter {
+        margin-top: 45px;
+        float: right;
+    }
+    .card {
+        height: 830px;
+    }
+}
+
+@media (max-width: 460px) {
+    div.dataTables_length {
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        margin-top: 55px;
+        transform: translate(-50%, -50%)
+    }
+    .dataTables_scrollHead {
+        margin-top: 1px!important;
+    }
+    .dataTables_filter {
+        margin-top: 95px;
+        margin-left: -30%;
+        transform: translate(-30%, -30%)
+    }
+    .card {
+        height: 960px;
+    }
+    #tabela_info.dataTables_infos {
+        text-align: center;
+    }
+    div.dataTables_wrapper div.dataTables_paginate {
+        margin-top: 30px!important;
+        margin-right: -45%;
+        transform: translate(-45%, -45%)
+    }
+}
+
+@media (max-width: 370px) {
+    .dataTables_filter {
+        margin-top: 95px;
+        margin-left: -10%;
+        transform: translate(-10%, -10%)
+    }
+    div.dataTables_wrapper div.dataTables_paginate {
+        margin-top: 30px!important;
+        margin-right: -40%;
+        transform: translate(-40%, -40%)
+    }
+}
