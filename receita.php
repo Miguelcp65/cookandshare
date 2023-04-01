@@ -106,7 +106,7 @@ if (isset($_SERVER['HTTP_REFERER'])){
         <div class="descricao">
             <p><?php echo $descricao?></p>
             <div class="autor">
-            <img src="/admin/img/users/<?php echo $user_img?>" alt="<?php echo $nome?>">
+            <img src="admin/img/users/<?php echo $user_img?>" alt="<?php echo $nome?>">
             <div class="nomes"> 
                 <span class="nome"><?php echo $usernome?> <?php echo $userapelido?> </span>
                 <p class="criado">Membro desde: <?php echo $usercriado?></p>
@@ -115,7 +115,7 @@ if (isset($_SERVER['HTTP_REFERER'])){
         </div>
         
         <div class="imagem">
-            <img src="/assets/img/receitas/<?php echo $imagem?>" alt="<?php echo $nome?>">
+            <img src="assets/img/receitas/<?php echo $imagem?>" alt="<?php echo $nome?>">
         </div>
         <p class="ingredientes">Ingredientes</p>
         <hr class="hring">

@@ -229,7 +229,7 @@ foreach($resulcat as $rowcat) {
   <div class='catcard'>
     <h3 class='cattitle'>$nome</h3>
     <input type='hidden' name='categoria' id='rid' value='".$id."'>
-    <img src='../admin/img/categorias/$imagem'/>  
+    <img src='admin/img/categorias/$imagem'/>  
     <input type='hidden' name='categorianome' id='rnome' value='".$nome."'>
   </div>
   ";}?>

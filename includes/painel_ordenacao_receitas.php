@@ -1,5 +1,5 @@
 <?php 
-$sid_user = $_SESSION["id"]; 
+$sid_user =1;
 $resultrec = mysqli_query($conn, "SELECT receitas.nome, receitas.estado, receitas.id_user, receitas.npessoas, receitas.duracao, receitas.dificuldade, receitas.id_categoria, receitas.id_receita, 
 receitas.imagem, receitas.classificacao, categorias.nome AS 'catnome' FROM receitas  INNER JOIN categorias ON receitas.id_categoria = categorias.id_categoria
  WHERE receitas.id_user ='$sid_user' ORDER BY classificacao DESC");

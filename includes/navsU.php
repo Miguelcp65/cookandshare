@@ -45,9 +45,9 @@
                 if (isset($_SESSION['email'])) {        
                     echo '
                     <li><a href="perfil.php">Perfil</a></li>
-                    <li><a href="../includes/logout.php">Logout</a></li>';
+                    <li><a href="includes/logout.php">Logout</a></li>';
                 }else{
-                echo '<li><a href="../login.php">Login</a></li>';
+                echo '<li><a href="login.php">Login</a></li>';
                 }
                 ?>
              <li><a id="navCollapse" class="nav-link"><span><i class="fas fa-align-justify"></i></span></a></li>   

@@ -21,7 +21,7 @@
                                 $imagem = $row['imagem'];
                                 echo '
                                 <input type="hidden" name="categoria" id="rid" value="'.$id.'">
-                                <div id="'.$id.'" class="col" style="background-image:url(../admin/img/categorias/' .$imagem.');"> 
+                                <div id="'.$id.'" class="col" style="background-image:url(admin/img/categorias/' .$imagem.');"> 
                                 <div class="lista" >
                                 <span>'.$nome.'</span>
                                 <input type="hidden" name="categorianome" id="rnome" value="'.$nome.'">
